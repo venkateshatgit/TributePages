@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+#main{
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(230, 227, 227);
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+#title{
+    padding: 1%;
+    text-align: center;
+}
+
+
+#title h1{
+    font-size: 3.5rem;
+}
+
+
+#title p{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(122, 115, 115);
+}
+
+
+
+#img-div{
+    background-color: #fff;
+    width: 95%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#image{
+    width: 85%;
+    margin: 0 auto 0 auto;
+    padding: 2%;
+}
+
+#img-caption{
+    text-align: center;   
+    color: rgb(122, 115, 115);
+    font-size: 1.2rem;
+}
+
+
+
+#tribute-info h3{
+    margin: 50px 0;
+    text-align: center;
+}        
+
+#tribute-info p{
+    margin: 0 auto 50px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+#tribute-info h2{
+    margin: 0 auto 50px auto;
+    font-family: 'Dancing Script', cursive;
+    max-width: 800px;
+    text-align: left;
+}
+
+@media(max-width: 500px){
+    #main{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #title h1{
+        font-size: 2rem;
+    }
+
+    #img-caption{
+        font-size: 0.7rem;
+    }
+
+    #tribute-info p{
+        font-size: 0.8rem;
+    }
+
+    #tribute-info h2{
+        font-size: 1.2rem;
+    }
+
+    #tribute-info h3{
+        font-size: 0.8rem;
+    }
+}
